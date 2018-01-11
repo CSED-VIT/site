@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>home-migrations</title>
+  <g style="isolation: isolate">
+    <g id="4d454bb2-61fb-41fe-9060-c45416029f17" data-name="figures and interactions">
+      <polyline points="5 10.5 12.08 10.5 17.96 16.38 26.33 16.38" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <polyline points="5 22.25 12.08 22.25 17.96 16.38" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+    </g>
+  </g>
+</svg>

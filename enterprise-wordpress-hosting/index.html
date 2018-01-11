@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<!-- Mirrored from kinsta.com/enterprise-wordpress-hosting/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jan 2018 18:52:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../wp-content/themes/kinsta/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../wp-content/themes/kinsta/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../wp-content/themes/kinsta/favicons/favicon-16x16.png">
+<link rel="manifest" href="../wp-content/themes/kinsta/favicons/manifest.json">
+<link rel="mask-icon" href="../wp-content/themes/kinsta/favicons/safari-pinned-tab.svg" color="#29d3d8 ">
+<meta name="theme-color" content="#ffffff ">
+
+<script>var et_site_url='../index.html';var et_post_id='9013';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script><title>Enterprise WordPress Hosting - Kinsta</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v6.0 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Kinsta&#039;s Enterprise WordPress hosting features automatic scalability, multi-regional deployment, and state of the art security, powered by Google Cloud."/>
+<link rel="canonical" href="index.html" />
+<link rel="publisher" href="https://plus.google.com/+KinstaHosting/"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Enterprise WordPress Hosting - Kinsta" />
+<meta property="og:description" content="Kinsta&#039;s Enterprise WordPress hosting features automatic scalability, multi-regional deployment, and state of the art security, powered by Google Cloud." />
+<meta property="og:url" content="https://kinsta.com/enterprise-wordpress-hosting/" />
+<meta property="og:site_name" content="Kinsta Managed WordPress Hosting" />
+<meta property="article:publisher" content="https://www.facebook.com/kinstahosting" />
+<meta property="fb:app_id" content="148976462317083" />
+<meta property="og:image" content="https://kinsta.com/wp-content/uploads/2017/11/og-share-image-1.jpg" />
+<meta property="og:image:secure_url" content="https://kinsta.com/wp-content/uploads/2017/11/og-share-image-1.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Kinsta&#039;s Enterprise WordPress hosting features automatic scalability, multi-regional deployment, and state of the art security, powered by Google Cloud." />
+<meta name="twitter:title" content="Enterprise WordPress Hosting - Kinsta" />
+<meta name="twitter:site" content="@kinsta" />
+<meta name="twitter:image" content="https://kinsta.com/wp-content/uploads/2017/11/og-share-image-1.jpg" />
+<meta name="twitter:creator" content="@brianleejackson" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='http://js.stripe.com/' />
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel='stylesheet' id='kinsta-style-css'  href='../wp-content/themes/kinsta/style9f92.css?ver=5a57b1c62a875' type='text/css' media='all' />
+<link rel='stylesheet' id='kinsta-fonts-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C700&amp;ver=5a57b1c62a8c8' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-slick-css'  href='../wp-content/themes/kinsta/vendor/slick/slick6b86.css?ver=5a57b1c62aa3d' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-slick-theme-css'  href='../wp-content/themes/kinsta/vendor/slick/slick-theme9f3b.css?ver=5a57b1c62aad2' type='text/css' media='all' />
+<script type='text/javascript' src='http://js.stripe.com/v3/?ver=5a57b1c62a913'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='../wp-content/themes/kinsta/vendor/slick/slickd301.js?ver=5a57b1c62a9ae'></script>
+<link rel='https://api.w.org/' href='../wp-json/index.html' />
+<link rel='shortlink' href='../indexbeb5.html?p=9013' />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed47e5.json?url=https%3A%2F%2Fkinsta.com%2Fenterprise-wordpress-hosting%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed224c.json?url=https%3A%2F%2Fkinsta.com%2Fenterprise-wordpress-hosting%2F&amp;format=xml" />
+<link rel='https://github.com/WP-API/WP-API' href='../wp-json.json' />
+<style type="text/css">
+#in-post-newsletter {display:none;}
+</style>
+  <!-- Hotjar tracking -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:677877,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  <!-- / Hotjar tracking -->
+<link rel="alternate" href="index.html" hreflang="x-default" />
+<link rel="alternate" href="index.html" hreflang="en" />
+<link rel="alternate" href="../es/wordpress-hosting-empresarial/index.html" hreflang="es" />      <meta name="onesignal" content="wordpress-plugin"/>
+          <link rel="manifest"
+            href="../wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/manifest.json73dd.json?gcm_sender_id="/>
+          <script src="../../cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>    <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.html";
+        OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.html";
+        OneSignal.SERVICE_WORKER_PARAM = { scope: '/' };
+
+        OneSignal.setDefaultNotificationUrl("../index.html");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'd16ebce3-4bae-45ba-908c-bb359a3aefe2';
+oneSignal_options['autoRegister'] = true;
+oneSignal_options['httpPermissionRequest'] = { };
+oneSignal_options['httpPermissionRequest']['enable'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "../wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/index.html";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.4979c8f7-1397-4bb3-8d4b-5aebacc6595c";
+oneSignal_options['promptOptions'] = { };
+              OneSignal.init(window._oneSignalInitOptions);
+                    });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+
+  <!-- Google Analytics -->
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-46168441-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='../../www.google-analytics.com/analytics.js'></script>
+  <!-- / Google Analytics -->
+  <!-- Add Ecommerce To Analytics -->
+  <script>ga('require', 'ecommerce');</script>
+  <!-- / Ecommerce To Analytics -->
+</head>
+
+<body class="page-template page-template-custom-pages page-template-page page-template-landing-enterprise-hosting page-template-custom-pagespagelanding-enterprise-hosting-php page page-id-9013 et_bloom unknown object-9013">
+
+  <!-- Facebook tracking -->
+	<script>
+  	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  	document,'script','../../connect.facebook.net/en_US/fbevents.js');
+  	fbq('init', '1720913808174951');
+  	fbq('track', "PageView");
+      </script>
+  	<noscript><img height="1" width="1" style="display:none"
+  	src="https://www.facebook.com/tr?id=1720913808174951&amp;ev=PageView&amp;noscript=1"
+  	/></noscript>
+  	<script>fbq('track', 'ViewContent');</script>
+  <!-- / Facebook tracking -->
+    <!-- Quora tracking -->
+  <script>
+  !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', '../../a.quora.com/qevents.js');
+  qp('init', '7e78c0b1675446d2aca83efaec5316af');
+  qp('track', 'ViewContent');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/7e78c0b1675446d2aca83efaec5316af/pixel?tag=ViewContent&amp;noscript=1"/></noscript>
+  <!-- / Quora tracking -->
+  
+<div class='bg--gradient--dark-light-blue pb--80 position--relative' id='site-header'>
+
+  <div class='container hero-menu'>
+    <div id='site-header' class='row'><div class='col-xs-12 pt--50 pt--md--30 pt--xs--30'><div id='site-menu--default'><div class='container'><div class='row'><div class='col-xs-12'>
+  <div class='row between-xs middle-xs'>
+
+
+    <a href='../index.html' class='site-menu__logo'>
+      <svg class="" style="width:120px; height:auto "  width="82" height="16" viewBox="0 0 82 16"><path d="M34.92 2.55a6.78 6.78 0 0 0-2.14-1.45 6.53 6.53 0 0 0-2.6-.53 6.73 6.73 0 0 0-2.46.43 6.8 6.8 0 0 0-2.11 1.31l-1.08-1.23a.62.62 0 0 0-.46-.21.61.61 0 0 0-.61.62v13.9A.62.62 0 0 0 24 16h2.62a.62.62 0 0 0 .61-.62v-8a2.84 2.84 0 0 1 .23-1.12 2.88 2.88 0 0 1 .62-.92 2.91 2.91 0 0 1 2.07-.85 2.78 2.78 0 0 1 1.11.23 2.91 2.91 0 0 1 1.53 1.55A2.87 2.87 0 0 1 33 7.35v8a.62.62 0 0 0 .62.62h2.62a.62.62 0 0 0 .61-.62v-8a6.68 6.68 0 0 0-.53-2.64 6.9 6.9 0 0 0-1.4-2.16zM64.62.89H54.31a.62.62 0 0 0-.61.62v2.61a.61.61 0 0 0 .61.62H55a.62.62 0 0 1 .62.62v3.87a6.66 6.66 0 0 0 .53 2.63 6.86 6.86 0 0 0 3.6 3.61 6.5 6.5 0 0 0 2.62.53h2.3a.62.62 0 0 0 .61-.62v-2.61a.62.62 0 0 0-.61-.62h-2.3a2.87 2.87 0 0 1-1.14-.23 3 3 0 0 1-.93-.63 2.9 2.9 0 0 1-.62-.93 2.86 2.86 0 0 1-.22-1.14V5.35a.62.62 0 0 1 .54-.62h4.61a.62.62 0 0 0 .61-.62v-2.6a.62.62 0 0 0-.6-.62zM81.39.61a.61.61 0 0 0-.47.22L80 1.92a.61.61 0 0 1-.87.08 9.12 9.12 0 0 0-.69-.54 8.63 8.63 0 0 0-1.3-.77 7.59 7.59 0 0 0-1.39-.51A5.9 5.9 0 0 0 74.29 0a7.69 7.69 0 0 0-3 .59 7.46 7.46 0 0 0-2.45 1.65 7.8 7.8 0 0 0-1.66 2.54A8.49 8.49 0 0 0 66.59 8a8.89 8.89 0 0 0 .6 3.38 7.36 7.36 0 0 0 1.66 2.51 7.1 7.1 0 0 0 2.45 1.56 8.29 8.29 0 0 0 3 .54 5.75 5.75 0 0 0 1.44-.19 7.88 7.88 0 0 0 1.39-.5 8.49 8.49 0 0 0 1.29-.75c.23-.16.45-.33.67-.5a.61.61 0 0 1 .88.12l.92 1.28A.61.61 0 0 0 82 15.1V1.23a.62.62 0 0 0-.61-.62zm-3.57 8.94a4.43 4.43 0 0 1-.82 1.31 4.12 4.12 0 0 1-1.22.92 3.34 3.34 0 0 1-1.49.34 4.11 4.11 0 0 1-1.49-.27 3.34 3.34 0 0 1-1.21-.79 3.7 3.7 0 0 1-.81-1.29A4.87 4.87 0 0 1 70.49 8a4.88 4.88 0 0 1 .3-1.76A3.76 3.76 0 0 1 71.6 5a3.37 3.37 0 0 1 1.21-.79 4.12 4.12 0 0 1 1.49-.27 3.32 3.32 0 0 1 1.49.34 4 4 0 0 1 1.21.88 4.43 4.43 0 0 1 .82 1.31 4.08 4.08 0 0 1 0 3.07zM3.26.86H.62a.62.62 0 0 0-.62.62v13.9a.62.62 0 0 0 .62.62h2.64a.62.62 0 0 0 .61-.62V1.48a.61.61 0 0 0-.61-.62zm10.83 1a.62.62 0 0 0-.47-1h-3a.61.61 0 0 0-.47.22L4.22 8a.61.61 0 0 0 0 .81l6 6.94a.61.61 0 0 0 .47.22h3a.62.62 0 0 0 .47-1L8.79 8.85a.62.62 0 0 1 0-.81zm5.77-1a.61.61 0 0 0-.47.21l-.12.14-2.5 2.86a.61.61 0 0 0-.15.4v10.91a.61.61 0 0 0 .61.62h2.62a.62.62 0 0 0 .61-.62V1.48a.62.62 0 0 0-.61-.62zM51.3 7.95A4.72 4.72 0 0 0 49.78 7a5.22 5.22 0 0 0-1.86-.33h-4a.91.91 0 0 1-.68-.29A1 1 0 0 1 43 5.7a1 1 0 0 1 1-1h7.18a.62.62 0 0 0 .61-.62V1.51a.62.62 0 0 0-.61-.62h-7.27a4.72 4.72 0 0 0-1.91.38 4.75 4.75 0 0 0-2.5 2.54 4.7 4.7 0 0 0-.37 1.88 4.7 4.7 0 0 0 .38 1.88A4.84 4.84 0 0 0 42 10.15a4.64 4.64 0 0 0 1.87.38H48a.82.82 0 0 1 .83.74.81.81 0 0 1-.81.89h-8.29a.61.61 0 0 0-.61.62v2.61a.61.61 0 0 0 .61.62h8.18a4.75 4.75 0 0 0 3.38-1.41 5 5 0 0 0 1-1.53 4.66 4.66 0 0 0 .38-1.87 4.32 4.32 0 0 0-.38-1.82 4.44 4.44 0 0 0-.99-1.43z" fill="white" data-name="figures and interactions"/></svg>    </a>
+
+    <nav class='site-menu__nav show-sm-up'>
+      <ul>
+                  <li>
+            <a class=' ' href="../features/index.html"><span>Features</span></a>
+          </li>
+                  <li>
+            <a class=' ' href="../plans/index.html"><span>Plans</span></a>
+          </li>
+                  <li>
+            <a class=' ' href="../clients/index.html"><span>Clients</span></a>
+          </li>
+                  <li>
+            <a class=' ' href="../contact-us/index.html"><span>Contact</span></a>
+          </li>
+                  <li>
+            <a class=' login' href="https://my.kinsta.com/login/"><span>Login</span></a>
+          </li>
+              </ul>
+    </nav>
+
+    <div class='show-xs-only site-menu__hamburger' id='site-menu__hamburger'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </div>
+</div></div></div></div>
+</div></div>  </div>
+
+  <div class="col-xs-12 mt--120 mt--xs--60 pb--40 color--white text--center">
+        <h1 class="heading--large">Enterprise WordPress hosting</h1>
+        <div class="row center-xs">
+          <div class="col-xs-12 col-sm-6">
+            <p class="text--large mt--10">
+              Kinsta's enterprise WordPress hosting solution features automatic scalability, multi-regional deployment, and state of the art security, backed by Google Cloud Platform’s premium tier network. Our performance and support is second to none.</p>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+<div class="bg--gray pt--60 pb--120 bg--slant--bottom">
+  <div class="container">
+    <div class='row center-xs mb--20'><div class='col-12-xs'>
+      <h2 class='heading--large'>
+        High performance and fault tolerance      </h2>
+    </div>
+  </div>
+
+    <div class='row center-xs'><div class='col-xs-12 col-md-8'>
+    <p class='text--large'>Working with large volume and high-demanding sites is our speciality. We serve billions of page views and bytes every month with absolute stability and uptime. Our servers are prepared for events you can’t forsee. Traffic surges, peak times and increased downloads are not an issue, we can handle anything you throw at us.</p>
+  </div></div>
+
+    <div class='row gutter--large center-xs mt--40' id='kinsta-works-for-you'>
+      <div class='col-xs-12 col-sm-4'>
+
+        <img alt="HTTP requests" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-http-requests.svg' height='70'>
+
+          <h3 class='heading--small mt--20 mb--10'>
+            7 billion          </h3>
+          <p>
+            HTTP requests per month          </p>
+      </div>
+      <div class='col-xs-12 col-sm-4 mt--xs--50'>
+        <img alt="Data transfer" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-data-transfer.svg' height='70'>
+
+        <h3 class='heading--small mt--20 mb--10'>
+          200 terabytes        </h3>
+        <p>
+          Egress data transfer per month        </p>
+      </div>
+      <div class='col-xs-12 col-sm-4 mt--xs--50'>
+        <img alt="Response time" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-response-time.svg' height='70'>
+
+          <h3 class='heading--small mt--20 mb--10'>
+            2 minute          </h3>
+          <p>
+            Median support ticket response time          </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="container mt--60">
+
+  <div class='row center-xs mb--20'><div class='col-12-xs'>
+    <h2 class='heading--large'>Features crucial for success  </div></div>
+
+  <div class='row center-xs'><div class='col-xs-12 col-md-8'>
+    <p class='text--large'>Kinsta has built an all-in-one managed hosting solution designed for Enterprise.</p>
+  </div></div>
+
+
+  <div class='boxes--alternating mt--60'>
+    <div class='box box--padding--60'>
+      <div class='row gutter--large top-xs nocol'>
+        <img class='mr--40' alt="Developer features" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-developer-features.svg' height='70'>
+        <div class='col-xs'>
+          <h3 class='heading--small mb--10'>
+            Developer features          </h3>
+          <p>We love developers. SSH Access, WP-CLI, and Git are all standard features across all of our hosting plans.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class='box box--padding--60'>
+      <div class='row gutter--large top-xs nocol'>
+        <img class='mr--40' alt="High security network" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-security.svg' height='70'>
+        <div class='col-xs'>
+          <h3 class='heading--small mb--10'>
+            High security network          </h3>
+          <p>
+            We monitor sites every minute for uptime, detect DDoS attacks as they happen, and proactively stop malicious code.          </p>
+        </div>
+      </div>
+    </div>
+    <div class='box box--padding--60'>
+      <div class='row gutter--large top-xs nocol'>
+        <img class='mr--40' alt="Expert support" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-support.svg' height='70'>
+        <div class='col-xs'>
+          <h3 class='heading--small mb--10'>
+            Expert support          </h3>
+          <p>
+            Our 24×7 support team are all WordPress developers, contribute to WordPress core, and live and breath it on a daily basis.          </p>
+        </div>
+      </div>
+    </div>
+    <div class='box box--padding--60'>
+      <div class='row gutter--large top-xs nocol'>
+        <img class='mr--40' alt="Next generation infrastructure" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-infrastructure.svg' height='70'>
+        <div class='col-xs'>
+          <h3 class='heading--small mb--10'>
+            Next generation infrastructure          </h3>
+          State-of-the-art technology on our Google Cloud powered infrastructure, such as NGINX, PHP 7, HHVM, LXD containers, and MariaDB.        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class='row center-xs mt--120 mb--20'>
+    <div class='col-12-xs'>
+      <h2 class='heading--big'>
+        Frequently asked: about Kinsta hosting      </h2>
+    </div>
+  </div>
+
+  <div class='row center-xs'>
+    <div class='col-xs-12 col-md-8'>
+      <p class='text--large'>
+        Our hosting platform doesn't fall into any of the traditional hosting categories. Our entire infrastructure is built on the Google Cloud Platform and is very different from traditional shared, VPS, or dedicated infrastructure.      </p>
+    </div>
+  </div>
+
+
+  <div class='row center-xs mt--60'><div class='col-12-xs'>
+    <svg class="display--inline" style=" "  width="24" height="24" viewBox="0 0 24 24"><g data-name="figures and interactions" fill="#5333ed"><path d="M12 3a9 9 0 1 1-9 9 9 9 0 0 1 9-9m0-3a12 12 0 1 0 12 12A12 12 0 0 0 12 0z"/><path d="M10.8 13.08v-.68c0-1.54 2.26-2.13 2.26-3.26A1.16 1.16 0 0 0 11.75 8a2.63 2.63 0 0 0-1.75.89.27.27 0 0 1-.36 0l-.76-.75a.29.29 0 0 1 0-.42 4.19 4.19 0 0 1 3.18-1.43A2.93 2.93 0 0 1 15.21 9c0 2-2.47 2.53-2.47 3.51V13a.31.31 0 0 1-.32.34H11.1a.31.31 0 0 1-.3-.26zm1 2.21a1.37 1.37 0 0 1 1.35 1.35 1.35 1.35 0 0 1-1.4 1.36 1.34 1.34 0 0 1-1.33-1.33 1.35 1.35 0 0 1 1.33-1.38z"/></g></svg>    <h3 class='heading--medium mt--10'>What are the details of the Kinsta Enterprise hosting?  </div></div>
+
+  <div class="row mt--40">
+    <div class="col-xs-3 text--center">
+      <img alt="Google Cloud Logo" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-gcp.svg'>
+    </div>
+    <div class='col-xs-6'>
+      <h3 class='heading--small mb--20'>Google Cloud Platform</h3>
+      <p>
+        We chose the Google Cloud Platform for its automatic scalability, state of the art security, multi-regional deployment, and high-performance. Many 3rd party hosts are constrained to 2-6 CPUs per VPS. Utilizing the Google Compute Engine, we actually let the site’s container scale to as many CPUs as needed when there’s a surge of traffic. This ensures your WordPress site stays online 24×7.      </p>
+      <p class='mt--20'>
+        Google’s private Fiber network is one of the biggest in the world, allowing our machines to process more data in less time. We utilize Google's premium tier network, unlike other hosts who might opt for the standard tier network to cut costs. All data is stored redundantly, with automatic checksums to ensure data integrity.      </p>
+    </div>
+  </div>
+
+  <div class="row mt--40">
+    <div class="col-xs-3 text--center">
+      <img alt="Content Delivery Network (CDN)" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-content-delivery-network.svg' width="128">
+    </div>
+    <div class='col-xs-6'>
+      <h3 class='heading--small mb--20'>HTTP/2 content delivery network</h3>
+      <p>
+        Content delivery networks have been shown to decrease load times by over 50%. They accomplish this by minimizing network latency, geographical distance your data has to travel, and utilizing technolgies such as GZIP compression. We’ve partnered up with KeyCDN, a real-time HTTP/2 powered content delivery network, with 28 POPs around the globe to speed up delivery of your assets (images, JS, CSS). Free bandwidth is included wtih every plan.      </p>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="bg--gray pt--60 pb--120 mt--60 bg--slant--bottom">
+  <div class="container">
+    <div class='row center-xs mb--20'><div class='col-12-xs'>
+      <h2 class='heading--large'>
+        We make DevOps happy      </h2>
+    </div>
+  </div>
+
+    <div class='row center-xs'><div class='col-xs-12 col-md-8'>
+    <p>Cut costs and time involved with tedious maintenance.</p>
+  </div></div>
+
+    <div class='row gutter--large center-xs mt--40' id='kinsta-works-for-you'>
+      <div class='col-xs-12 col-sm-4'>
+
+        <img alt="Choose your data center" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-data-center.svg' height='70'>
+
+          <h3 class='heading--small mt--20 mb--10'>
+            Choose your data center          </h3>
+          <p>
+            13 locations throughout the USA, Europe, Asia-Pacific, and South America. They are strategically placed to offer the lowest latency.          </p>
+      </div>
+      <div class='col-xs-12 col-sm-4 mt--xs--50'>
+        <img alt="Always backed up" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-backed-up.svg' height='70'>
+
+        <h3 class='heading--small mt--20 mb--10'>
+          Always backed up        </h3>
+        <p>
+          Our redundant, isolated, and automatic backup system allows you to roll back your site with a single click.        </p>
+      </div>
+      <div class='col-xs-12 col-sm-4 mt--xs--50'>
+        <img alt="Staging areas" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-staging-areas.svg' height='70'>
+
+          <h3 class='heading--small mt--20 mb--10'>
+            Staging areas          </h3>
+          <p>
+            Test plugins, themes, and updates with our one-click staging environments. Speed up your development workflow.          </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Quotes Block -->
+<div class='container mb--60 mt--60'>
+  <div class='carousel'>
+          <div class='quote'>
+        <div class='quote__screenshot'>
+            <img  alt="" class="" src="../wp-content/uploads/2017/11/honest-brew-screenshot-1-150x150.png" srcset="https://kinsta.com/wp-content/uploads/2017/11/honest-brew-screenshot-1-300x160.png 300w, https://kinsta.com/wp-content/uploads/2017/11/honest-brew-screenshot-1.png 600w">
+          </div>
+
+        <div class='quote__content'>
+          <div class='quote__text center-xs start-smm'>
+            After struggling for years with WordPress hosts, we finally found a host that truly understood the unique requirements of a WooCommerce store. Their stack can be optimized to make WooCommerce fly.          </div>
+
+          <div class='mt--40 row nocol middle-xs xs-all-12-centered center-xs start-sm'>
+            <div class='row center-xs start-sm'>
+                <img width='48' height='48' alt="Andrew Reeve from Honest Brew" class="avatar--round" src="../wp-content/uploads/2017/11/andrewreeve.jpg" srcset="">
+              </div>
+
+            <div class='ml--20 ml--xs--0 mt--xs--10'>
+              <div class='heading--small'>Andrew Reeve</div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+          <div class='quote'>
+        <div class='quote__screenshot'>
+            <img  alt="" class="" src="../wp-content/uploads/2017/11/intuit-screenshot-150x150.jpg" srcset="https://kinsta.com/wp-content/uploads/2017/11/intuit-screenshot-300x160.jpg 300w, https://kinsta.com/wp-content/uploads/2017/11/intuit-screenshot.jpg 600w">
+          </div>
+
+        <div class='quote__content'>
+          <div class='quote__text center-xs start-smm'>
+            Out of the handful of hosts and solutions we tested, Kinsta provided the best-in-class performance while reducing our teams dependency on DevOps support -- Kinsta's support team is second to none.          </div>
+
+          <div class='mt--40 row nocol middle-xs xs-all-12-centered center-xs start-sm'>
+            <div class='row center-xs start-sm'>
+                <img width='48' height='48' alt="" class="avatar--round" src="../wp-content/uploads/2017/11/jake-martin-avatar.jpg" srcset="">
+              </div>
+
+            <div class='ml--20 ml--xs--0 mt--xs--10'>
+              <div class='heading--small'>Jake Martin</div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+</div>
+<!-- Quotes Block -->
+
+<!-- Addons Block -->
+<div class='container mt--60'>
+
+  <!-- Header -->
+  <div class='text--center'>
+    <h3 class='heading--large mb--10'>
+      Optional add-ons for any plan      </h3>
+    <p class='text--large'>
+      Extend what you have with special needs, available from the start      </p>
+  </div>
+  <!-- / Header -->
+
+  <!-- Top Row -->
+  <div class='row gutter--medium mt--60'>
+
+    <!-- Item 1 -->
+    <div class='col-xs-12 col-sm-4'>
+      <div class='row nocol top-xs md-all-12-centered'>
+        <img class='mr--20' alt="Cloudflare Logo" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-cloudflare.svg'>
+        <div>
+          <h4 class='heading--small mb--10'>
+            Cloudflare Railgun          </h4>
+
+          <p>
+            Railgun ensures that the connection between your origin server and the Cloudflare network is as fast as possible.          </p>
+        </div>
+      </div>
+    </div>
+    <!-- / Item 1 -->
+
+    <!-- Item 2 -->
+    <div class='col-xs-12 col-sm-4 mt--xs--30'>
+      <div class='row nocol top-xs md-all-12-centered'>
+        <img class='mr--20' alt="Elastricsearch Logo" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-elasticsearch.svg'>
+        <div>
+          <h4 class='heading--small mb--10'>
+            Elasticsearch          </h4>
+
+          <p>
+            RESTful search and analytics engine capable of solving a growing number of use cases.          </p>
+        </div>
+      </div>
+    </div>
+    <!-- / Item 2 -->
+
+    <!-- Item 3 -->
+    <div class='col-xs-12 col-sm-4 mt--xs--30'>
+      <div class='row nocol top-xs md-all-12-centered'>
+        <img class='mr--20' alt="Elastricsearch Logo" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-redis.svg'>
+        <div>
+          <h4 class='heading--small mb--10'>
+            Redis          </h4>
+
+          <p>
+            Open source, in-memory data structure store, used as a database, cache and message broker.            </p>
+        </div>
+      </div>
+    </div>
+    <!-- / Item 3 -->
+  </div>
+  <!-- / Top Row -->
+
+  <!-- Bottom Row -->
+  <div class='row gutter--medium mt--60 mt--xs--30'>
+
+    <!-- Item 1 -->
+    <div class='col-xs-12 col-sm-4'>
+      <div class='row nocol top-xs md-all-12-centered'>
+        <img class='mr--20' alt="A cloud with a plus sign in it" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-extra-backups.svg'>
+        <div>
+          <h4 class='heading--small mb--10'>
+            Extra backups            </h4>
+
+          <p>
+            For increased security and to recover even more stages of your website. From daily to hourly backups to play it safe.            </p>
+        </div>
+      </div>
+    </div>
+    <!-- / Item 1 -->
+
+    <!-- Item 2 -->
+    <div class='col-xs-12 col-sm-4 mt--xs--30'>
+      <div class='row nocol top-xs md-all-12-centered'>
+        <img class='mr--20' alt="A rectangle being scaled up" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-scale.svg'>
+        <div>
+          <h4 class='heading--small mb--10'>
+            Scale visits and CDN          </h4>
+
+          <p>
+            No need to change plan to handle a peak. Transparent overage pricing lets you calculate in advance.          </p>
+        </div>
+      </div>
+    </div>
+    <!-- / Item 2 -->
+
+    <!-- Item 3 -->
+    <div class='col-xs-12 col-sm-4 mt--xs--30'>
+      <div class='row nocol top-xs md-all-12-centered'>
+        <img class='mr--20' alt="A cloud with a plus sign in it" src='../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/enterprise-feature-request.svg'>
+        <div>
+          <h4 class='heading--small mb--10'>
+            Anything else you need?            </h4>
+
+          <p>
+            Should you need something extra for your stack, let's discuss it! <br>
+              <a class='link--purple--green--underline' href='../contact-us/index.html'>Contact us              </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- / Item 3 -->
+
+  </div>
+  <!-- / Bottom Row -->
+
+</div>
+<!-- / Addons Block -->
+
+<div class='bg--gray bg--slant--top bg--slant--bottom mt--120'>
+  <div class='container pt--80 pb--80'>
+    <div class='row center-xs'><div class='col-12-xs'>
+      <h2 class='heading--large'>Some more notable developer features</h2>
+    </div></div>
+
+    <div class="row mt--40 ">
+      <div class="col-xs-4">
+        <div class='row nocol middle-xs'>
+          <svg class="mr--20" style=" "  width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#5333ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19.68 6.95L9.63 16.99l-5.04-5.04" data-name="figures and interactions"/></svg>          <span class='flex--1'>PHP 5.6, 7, 7.1, 7.2, and HHVM</span>
+        </div>
+
+        <div class='row nocol middle-xs mt--20'>
+          <svg class="mr--20" style=" "  width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#5333ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19.68 6.95L9.63 16.99l-5.04-5.04" data-name="figures and interactions"/></svg>          <span class='flex--1'>One-click cloning</span>
+        </div>
+
+      </div>
+
+      <div class="col-xs-4">
+        <div class='row nocol middle-xs'>
+          <svg class="mr--20" style=" "  width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#5333ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19.68 6.95L9.63 16.99l-5.04-5.04" data-name="figures and interactions"/></svg>          <span class='flex--1'>WP-CLI, Composer and Git</span>
+        </div>
+
+        <div class='row nocol middle-xs mt--20'>
+          <svg class="mr--20" style=" "  width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#5333ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19.68 6.95L9.63 16.99l-5.04-5.04" data-name="figures and interactions"/></svg>          <span class='flex--1'>Free SSL, SSH and SFTP</span>
+        </div>
+
+      </div>
+
+      <div class="col-xs-4">
+        <div class='row nocol middle-xs'>
+          <svg class="mr--20" style=" "  width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#5333ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19.68 6.95L9.63 16.99l-5.04-5.04" data-name="figures and interactions"/></svg>          <span class='flex--1'>Staging environments</span>
+        </div>
+
+        <div class='row nocol middle-xs mt--20'>
+          <svg class="mr--20" style=" "  width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#5333ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19.68 6.95L9.63 16.99l-5.04-5.04" data-name="figures and interactions"/></svg>          <span class='flex--1'>Automatic backups</span>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Logos Block -->
+<div class='container mt--60 mb--100'>
+
+  <!-- Title -->
+  <div class='row'>
+    <div class='col-xs-12 center-xs'>
+      <h2 class='heading heading--large mb--20'>Already with us</h2>
+    </div>
+  </div>
+  <!-- / Title -->
+
+
+    <!-- Logos -->
+    <div class='row around-xs middle-xs center-xs logos logos--faded-color-on-hover'>
+      <div class='mt--40 mt--xs--20 mr--xs--10 ml--xs--10'>
+        <img alt="Ubisoft company logo" src='../wp-content/themes/kinsta/images/logo-ubisoft.svg'>
+      </div>
+
+      <div class='mt--40 mt--xs--20'>
+        <img alt="Ricoh company logo" src='../wp-content/themes/kinsta/images/logo-ricoh.svg'>
+      </div>
+
+      <div class='mt--40 mt--xs--20'>
+        <img alt="Asos company logo" src='../wp-content/themes/kinsta/images/logo-asos.svg'>
+      </div>
+
+      <div class='mt--40 mt--xs--20'>
+        <img alt="Workforce company logo" src='../wp-content/themes/kinsta/images/logo-workforce.png'>
+      </div>
+
+    </div>
+    <div class='row around-xs middle-xs center-xs logos logos--faded-color-on-hover'>
+
+      <div class='mt--40 mt--xs--20 mr--xs--10 ml--xs--10'>
+        <img alt="Intuit company logo" src='../wp-content/themes/kinsta/images/logo-intuit.svg'>
+      </div>
+
+      <div class='mt--40 mt--xs--20 mr--xs--10 ml--xs--10'>
+        <img alt="GE company logo" src='../wp-content/themes/kinsta/images/logo-ge.svg'>
+      </div>
+
+      <div class='mt--40 mt--xs--20'>
+        <img alt="Valicor company logo" src='../wp-content/themes/kinsta/images/logo-valicor.png'>
+      </div>
+
+      <div class='mt--40 mt--xs--20'>
+        <img alt="Elcome company logo" src='../wp-content/themes/kinsta/images/logo-elcome.png'>
+      </div>
+
+      <div class='mt--40 mt--xs--20'>
+        <img alt="Michigan Aerospace company logo" src='../wp-content/themes/kinsta/images/logo-michigan-aerospace.png'>
+      </div>
+
+    </div>
+    <!-- / Logos -->
+
+</div>
+<!-- / Logos Block -->
+
+<!-- # Contact -->
+<div class=' pt--120 pb--120 bg--image--tech color--white text--center bg--gradient--dark-light-blue'>
+  <div class='text--center mt--60 mb--60 position--relative'>
+    <h3 class='heading--large'>Power your brand's online presence<h3>
+      <div class='row center-xs'>
+        <p class='col-xs-5 text--large mt--10 mb--60'>Some of the world's biggest brands and industries rely on Kinsta's enterprise WordPress hosting. From startups, to agencies, and Fortune 500 companies. Ready to get started?</p>
+      </div>
+
+    <a class='button--ghost--green' href='../plans/index.html'>See Plans</a>
+
+  </div>
+</div>
+
+<!-- 100. Footer -->
+<!-- Site Footer Block -->
+<div class='site-footer bg--blue color--white pt--110 pb--110 pt--sm--40 pb--sm--60'>
+  <div class='container'>
+    <div class='row around-xs'>
+      <!-- Nav Column -->
+      <div class='col-xs-12 col-sm-5 col-md-3 mt--md--40'>
+
+        <h4 class='heading--small'><a href='../features/index.html'>Features</a></h4>
+          <ul>
+            <li>
+              <a href="../features/index.html">Managed hosting</a>
+            </li>
+            <li>
+              <a href="../advanced-features/index.html">Advanced features</a>
+            </li>
+            <li>
+              <a href="../woocommerce-hosting/index.html">WooCommerce hosting</a>
+            </li>
+            <li>
+              <a href="index.html">Enterprise hosting</a>
+            </li>
+            <li>
+              <a href="../secure-wordpress-hosting/index.html">Secure hosting</a>
+            </li>
+            <li>
+              <a href="../wordpress-migration/index.html">Free migrations</a>
+            </li>
+          </ul>
+      </div>
+      <!-- / Nav Column -->
+
+      <!-- Nav Column -->
+      <div class='col-xs-12 col-sm-5 col-md-3 mt--md--40'>
+        <h4 class='heading--small'><a href='../about-us/index.html'>Company</a></h4>
+          <ul>
+            <li>
+              <a href="../about-us/index.html">About us</a>
+            </li>
+            <li>
+              <a href="../clients/index.html">Clients &amp; case studies</a>
+            </li>
+            <li>
+              <a href="../contact-us/index.html">Contact us</a>
+            </li>
+            <li>
+              <a href="../careers/index.html">Careers</a>
+            </li>
+            <li>
+              <a href="../press/index.html">Press</a>
+            </li>
+            <li>
+              <a href="../affiliates/index.html">Affiliate program</a>
+            </li>
+          </ul>
+      </div>
+      <!-- / Nav Column -->
+
+      <!-- Nav Column -->
+      <div class='col-xs-12 col-sm-5 col-md-3 mt--md--40'>
+
+        <h4 class='heading--small'><a href='../resources/index.html'>Resources</a></h4>
+          <ul>
+            <li>
+              <a href="../knowledgebase/index.html">Knowledge base</a>
+            </li>
+            <li>
+              <a href="../learn/index.html">Learn WordPress</a>
+            </li>
+            <li>
+              <a href="../feature-updates/index.html">Feature updates</a>
+            </li>
+            <li>
+              <a href="../blog/index.html">Blog</a>
+            </li>
+          </ul>
+      </div>
+      <!-- / Nav Column -->
+
+      <!-- Nav Column -->
+      <div class='col-xs-12 col-sm-5 col-md-3  mt--md--40'>
+
+        <h4 class='heading--small'><a href='../mykinsta/index.html'>MyKinsta</a></h4>
+          <ul>
+            <li>
+              <a href="https://my.kinsta.com/login/">Login</a>
+            </li>
+            <li>
+              <a href="../mykinsta/index.html">What is MyKinsta?</a>
+            </li>
+            <li>
+              <a href="../status/index.html">System status</a>
+            </li>
+          </ul>
+      </div>
+      <!-- / Nav Column -->
+
+    </div>
+  </div>
+</div>
+<!-- / Site Footer Block -->
+
+<!-- 110. Footer Bar -->
+<div class='site-footer-bar bg bg--darkblue color--white pt--60 pb--60'>
+  <div class='container'>
+      <div class='site-footer-bar__social'>
+        <svg class="" style=" "  width="82" height="16" viewBox="0 0 82 16"><path d="M34.92 2.55a6.78 6.78 0 0 0-2.14-1.45 6.53 6.53 0 0 0-2.6-.53 6.73 6.73 0 0 0-2.46.43 6.8 6.8 0 0 0-2.11 1.31l-1.08-1.23a.62.62 0 0 0-.46-.21.61.61 0 0 0-.61.62v13.9A.62.62 0 0 0 24 16h2.62a.62.62 0 0 0 .61-.62v-8a2.84 2.84 0 0 1 .23-1.12 2.88 2.88 0 0 1 .62-.92 2.91 2.91 0 0 1 2.07-.85 2.78 2.78 0 0 1 1.11.23 2.91 2.91 0 0 1 1.53 1.55A2.87 2.87 0 0 1 33 7.35v8a.62.62 0 0 0 .62.62h2.62a.62.62 0 0 0 .61-.62v-8a6.68 6.68 0 0 0-.53-2.64 6.9 6.9 0 0 0-1.4-2.16zM64.62.89H54.31a.62.62 0 0 0-.61.62v2.61a.61.61 0 0 0 .61.62H55a.62.62 0 0 1 .62.62v3.87a6.66 6.66 0 0 0 .53 2.63 6.86 6.86 0 0 0 3.6 3.61 6.5 6.5 0 0 0 2.62.53h2.3a.62.62 0 0 0 .61-.62v-2.61a.62.62 0 0 0-.61-.62h-2.3a2.87 2.87 0 0 1-1.14-.23 3 3 0 0 1-.93-.63 2.9 2.9 0 0 1-.62-.93 2.86 2.86 0 0 1-.22-1.14V5.35a.62.62 0 0 1 .54-.62h4.61a.62.62 0 0 0 .61-.62v-2.6a.62.62 0 0 0-.6-.62zM81.39.61a.61.61 0 0 0-.47.22L80 1.92a.61.61 0 0 1-.87.08 9.12 9.12 0 0 0-.69-.54 8.63 8.63 0 0 0-1.3-.77 7.59 7.59 0 0 0-1.39-.51A5.9 5.9 0 0 0 74.29 0a7.69 7.69 0 0 0-3 .59 7.46 7.46 0 0 0-2.45 1.65 7.8 7.8 0 0 0-1.66 2.54A8.49 8.49 0 0 0 66.59 8a8.89 8.89 0 0 0 .6 3.38 7.36 7.36 0 0 0 1.66 2.51 7.1 7.1 0 0 0 2.45 1.56 8.29 8.29 0 0 0 3 .54 5.75 5.75 0 0 0 1.44-.19 7.88 7.88 0 0 0 1.39-.5 8.49 8.49 0 0 0 1.29-.75c.23-.16.45-.33.67-.5a.61.61 0 0 1 .88.12l.92 1.28A.61.61 0 0 0 82 15.1V1.23a.62.62 0 0 0-.61-.62zm-3.57 8.94a4.43 4.43 0 0 1-.82 1.31 4.12 4.12 0 0 1-1.22.92 3.34 3.34 0 0 1-1.49.34 4.11 4.11 0 0 1-1.49-.27 3.34 3.34 0 0 1-1.21-.79 3.7 3.7 0 0 1-.81-1.29A4.87 4.87 0 0 1 70.49 8a4.88 4.88 0 0 1 .3-1.76A3.76 3.76 0 0 1 71.6 5a3.37 3.37 0 0 1 1.21-.79 4.12 4.12 0 0 1 1.49-.27 3.32 3.32 0 0 1 1.49.34 4 4 0 0 1 1.21.88 4.43 4.43 0 0 1 .82 1.31 4.08 4.08 0 0 1 0 3.07zM3.26.86H.62a.62.62 0 0 0-.62.62v13.9a.62.62 0 0 0 .62.62h2.64a.62.62 0 0 0 .61-.62V1.48a.61.61 0 0 0-.61-.62zm10.83 1a.62.62 0 0 0-.47-1h-3a.61.61 0 0 0-.47.22L4.22 8a.61.61 0 0 0 0 .81l6 6.94a.61.61 0 0 0 .47.22h3a.62.62 0 0 0 .47-1L8.79 8.85a.62.62 0 0 1 0-.81zm5.77-1a.61.61 0 0 0-.47.21l-.12.14-2.5 2.86a.61.61 0 0 0-.15.4v10.91a.61.61 0 0 0 .61.62h2.62a.62.62 0 0 0 .61-.62V1.48a.62.62 0 0 0-.61-.62zM51.3 7.95A4.72 4.72 0 0 0 49.78 7a5.22 5.22 0 0 0-1.86-.33h-4a.91.91 0 0 1-.68-.29A1 1 0 0 1 43 5.7a1 1 0 0 1 1-1h7.18a.62.62 0 0 0 .61-.62V1.51a.62.62 0 0 0-.61-.62h-7.27a4.72 4.72 0 0 0-1.91.38 4.75 4.75 0 0 0-2.5 2.54 4.7 4.7 0 0 0-.37 1.88 4.7 4.7 0 0 0 .38 1.88A4.84 4.84 0 0 0 42 10.15a4.64 4.64 0 0 0 1.87.38H48a.82.82 0 0 1 .83.74.81.81 0 0 1-.81.89h-8.29a.61.61 0 0 0-.61.62v2.61a.61.61 0 0 0 .61.62h8.18a4.75 4.75 0 0 0 3.38-1.41 5 5 0 0 0 1-1.53 4.66 4.66 0 0 0 .38-1.87 4.32 4.32 0 0 0-.38-1.82 4.44 4.44 0 0 0-.99-1.43z" fill="white" data-name="figures and interactions"/></svg>        <a class='ml--20 mr--10' href='https://profiles.wordpress.org/kinstahosting' target='_blank'>
+          <svg class="" style=" "  width="24" height="24" viewBox="0 0 24 24"><defs><clipPath id="a"><path d="M19.88 7.72c0 .34.11.56.11.9a10.5 10.5 0 0 1-.67 3.26l-2.82 7.88a8.86 8.86 0 0 0 3.38-12zm-7.76 5.06l-2.7 7.87A9.59 9.59 0 0 0 12 21a9.65 9.65 0 0 0 3-.56.11.11 0 0 0-.11-.11zm6-1.24a4.59 4.59 0 0 0-.79-2.47 4.39 4.39 0 0 1-.9-2.14 1.59 1.59 0 0 1 1.46-1.58H18A8.42 8.42 0 0 0 12 3a8.89 8.89 0 0 0-7.54 4H5c.9 0 2.36-.11 2.36-.11a.39.39 0 0 1 0 .79 5.74 5.74 0 0 0-1 .11l3.26 9.79 2-6-1.31-3.74a4.26 4.26 0 0 1-.9-.11c-.45 0-.45-.79.11-.79 0 0 1.46.11 2.36.11s2.36-.11 2.36-.11a.4.4 0 0 1 .11.79 5.74 5.74 0 0 0-1 .11l3.26 9.67.9-3a11.85 11.85 0 0 0 .57-2.96zM3 12a8.89 8.89 0 0 0 5.06 8.1L3.79 8.29A8.15 8.15 0 0 0 3 12zm9 12a12 12 0 1 1 12-12 12 12 0 0 1-12 12z" fill="none"/></clipPath><clipPath id="b"><path fill="none" d="M0 0h24v24H0z"/></clipPath></defs><g clip-path="url(#a)" data-name="figures and interactions"><g clip-path="url(#b)"><path fill="white" d="M-3.75-3.75h31.5v31.5h-31.5z"/></g></g></svg>        </a>
+        <a class='mr--10' href='https://www.facebook.com/kinstahosting' target='_blank'>
+          <svg class="" style=" "  width="24" height="24" viewBox="0 0 24 24"><path d="M13.17 7.95a.47.47 0 0 1 .49-.49h2v-3h-3.47A2.44 2.44 0 0 0 9.73 7v3H8.25v3h1.48v7.38h3.45v-7.51h2l.49-3h-2.5zM12 24a12 12 0 1 1 12-12 12 12 0 0 1-12 12z" fill="white" data-name="figures and interactions"/></svg>        </a>
+        <a class='mr--10' href='https://twitter.com/kinsta' target='_blank'>
+          <svg class="" style=" "  width="24" height="24" viewBox="0 0 24 24"><path d="M18.27 7.85a2.86 2.86 0 0 0 1.29-1.66 6.06 6.06 0 0 1-1.94.74A3.22 3.22 0 0 0 15.4 6a3.07 3.07 0 0 0-3 3 1.37 1.37 0 0 0 .09.65 8.49 8.49 0 0 1-6.32-3.1 3.11 3.11 0 0 0 1 4.06 3.87 3.87 0 0 1-1.38-.37 3 3 0 0 0 2.4 3c-.18 0-.46.09-.74.09a1.17 1.17 0 0 1-.55-.09 3 3 0 0 0 2.86 2.12A5.87 5.87 0 0 1 6 16.62h-.75A8.92 8.92 0 0 0 9.59 18h.74a8.64 8.64 0 0 0 8.22-8.58V9A6 6 0 0 0 20 7.48c-.53.09-1.09.27-1.73.37zM12 24a12 12 0 1 1 12-12 12 12 0 0 1-12 12z" fill="white" data-name="figures and interactions"/></svg>        </a>
+      </div>
+      <div class='site-footer-bar__legal text--small'>
+        <span>
+          <span>
+            Copyright &copy; Kinsta Ltd. All rights reserved.          </span>
+        </span>
+        <span>
+          <a href='../legal/index.html'>
+            Legal information          </a>
+        </span>
+        <span>
+          <span>
+            Kinsta&reg; and WordPress&reg; are registered trademarks.          </span>
+        </span>
+      </div>
+      <div>
+        <svg class="" style=" "  width="16" height="16" viewBox="0 0 16 16"><g data-name="figures and interactions"><path fill="none" stroke="white" stroke-miterlimit="10" d="M8 1v14M0 8h16"/><g fill="none" stroke="white" stroke-miterlimit="10"><path d="M9.37.94A12.46 12.46 0 0 1 11.46 8a12.46 12.46 0 0 1-2.1 7.06M6.63.94A12.46 12.46 0 0 0 4.54 8a12.46 12.46 0 0 0 2.1 7.06"/></g><path d="M8 1a7 7 0 1 1-7 7 7 7 0 0 1 7-7m0-1a8 8 0 1 0 8 8 8 8 0 0 0-8-8z" fill="white"/></g></svg>        <select class='language-select site-footer-bar__language-selector'>
+          <option value='en'>English</option>
+          <option value='es'>Español</option>
+        </select>
+      </div>
+    </div>
+</div>
+
+<style media="screen">
+
+
+/* Hero Section */
+.hero-container {
+  height:68vh;
+  min-height:500px;
+  background-image: url('../wp-content/themes/kinsta/images/custom-pages/page/landing-enterprise-hosting/advanced-hero.html');
+}
+
+.hero-content {
+  flex:1;
+  display:flex;
+  z-index:100;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 48em) {
+  .hero-container {
+    height:auto;
+    background-image: -moz-linear-gradient( -30deg, rgb(0,0,77) 0%, rgb(83,51,237) 49%, rgb(44,212,217) 100%);
+    background-image: -webkit-linear-gradient( -30deg, rgb(0,0,77) 0%, rgb(83,51,237) 49%, rgb(44,212,217) 100%);
+    background-image: -ms-linear-gradient( -30deg, rgb(0,0,77) 0%, rgb(83,51,237) 49%, rgb(44,212,217) 100%);
+    max-height:auto;
+    min-height:0px;
+    margin-left:0px;
+    width:100%;
+    height:auto;
+    display:block;
+  }
+  .hero-content {
+    margin:0px;
+    padding-top:50px;
+    padding-bottom:60px;
+  }
+}
+
+
+
+</style>
+
+
+  <!-- Twitter tracking -->
+  <script>
+  !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+  },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='../../static.ads-twitter.com/uwt.js',
+  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+  twq('init','nv6uf');
+  twq('track','PageView');
+  </script>
+  <!-- / Twitter tracking -->
+      <!-- Adroll tracking -->
+    <script type="text/javascript">
+        adroll_adv_id = "IXHMD75JXBGLPAUGRMHZZ6";
+        adroll_pix_id = "QWYGOVTROBBV3K7BUHONWA";
+        (function () {
+            var _onload = function(){
+                if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+                if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+                var scr = document.createElement("script");
+                var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+                scr.setAttribute('async', 'true');
+                scr.type = "text/javascript";
+                scr.src = host + "/j/roundtrip.js";
+                ((document.getElementsByTagName('head') || [null])[0] ||
+                    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+            };
+            if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+            else {window.attachEvent('onload', _onload)}
+        }());
+    </script>
+    <!-- / Adroll tracking -->
+    <script type='text/javascript'>
+    jQuery.ajax({
+      url: 'https://kinsta.com/wp-admin/admin-ajax.php',
+      type: 'post',
+      data: {
+        action: 'view_increment',
+        post_id: '14483',
+        kinsta_nonce: '2e298ae1b8'
+      }
+    })
+  </script>
+  <link rel='stylesheet' id='et-gf-open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.form.min50fa.js?ver=4.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var kinsta = {"ajaxurl":"https:\/\/kinsta.com\/wp-admin\/admin-ajax.php","env":"production","mykinsta_url":"https:\/\/my.kinsta.com","chevronRight":"<svg class=\"\" style=\" \"  width=\"22\" height=\"38\" viewBox=\"0 0 22 38\"><path stroke=\"#5333ed\" stroke-width=\"5\" d=\"M3.21 34.79L18.79 18.79 3.21 2.79\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\/><\/svg>","chevronLeft":"<svg class=\"\" style=\"transform: rotate(180deg) \"  width=\"22\" height=\"38\" viewBox=\"0 0 22 38\"><path stroke=\"#5333ed\" stroke-width=\"5\" d=\"M3.21 34.79L18.79 18.79 3.21 2.79\" fill=\"none\" fill-rule=\"evenodd\" stroke-linecap=\"round\" stroke-linejoin=\"round\"\/><\/svg>","check_m":"<svg class=\"\" style=\" \"  width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path fill=\"none\" stroke=\"#5333ed\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\" d=\"M19.68 6.95L9.63 16.99l-5.04-5.04\" data-name=\"figures and interactions\"\/><\/svg>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../wp-content/themes/kinsta/scriptsf51e.js?ver=5a57b1c62ab79'></script>
+<script type='text/javascript' src='../wp-content/themes/kinsta/scripts/vendor/prismbb45.js?ver=5a57b1c62ac08'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min5859.js?ver=4.9.1'></script>
+<script type="text/javascript">var essb_handle_stats = function(oService, oPostID, oInstance) { var element = jQuery('.essb_'+oInstance); var instance_postion = jQuery(element).attr("data-essb-position") || ""; var instance_template = jQuery(element).attr("data-essb-template") || ""; var instance_button = jQuery(element).attr("data-essb-button-style") || ""; var instance_counters = jQuery(element).hasClass("essb_counters") ? true : false; var instance_nostats = jQuery(element).hasClass("essb_nostats") ? true : false; if (instance_nostats) { return; } var instance_mobile = false; if( (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i).test(navigator.userAgent) ) { instance_mobile = true; } if (typeof(essb_settings) != "undefined") { jQuery.post(essb_settings.ajax_url, { 'action': 'essb_stat_log', 'post_id': oPostID, 'service': oService, 'template': instance_template, 'mobile': instance_mobile, 'position': instance_postion, 'button': instance_button, 'counter': instance_counters, 'nonce': essb_settings.essb3_nonce }, function (data) { if (data) { }},'json'); } };</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ae0508e4dc","applicationID":"55044171","transactionName":"blxVZEVVV0JQBk0IW1cWdlNDXVZfHglYD1BQV1AdUlpNVEMVSwhHXBRfX0RAUF9W","queueTime":0,"applicationTime":104,"atts":"QhtWEg1PREw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from kinsta.com/enterprise-wordpress-hosting/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 11 Jan 2018 18:52:48 GMT -->
+</html>

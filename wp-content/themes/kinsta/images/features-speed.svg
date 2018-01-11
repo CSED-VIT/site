@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>features-speed</title>
+  <g style="isolation: isolate">
+    <g id="67b65545-dd98-4f9a-b73a-1cef8825e0da" data-name="figures and interactions">
+      <g>
+        <line x1="17.8" y1="65.58" x2="108.23" y2="65.58" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <line x1="107.24" y1="75.02" x2="42.19" y2="75.02" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <line x1="103.75" y1="84.46" x2="90.23" y2="84.46" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <line x1="93.75" y1="93.89" x2="87.59" y2="93.89" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <path d="M112.24,63.58a2,2,0,1,1-2,2,2,2,0,0,1,2-2m0-3a5,5,0,1,0,5,5,5,5,0,0,0-5-5Z" style="fill: #5333ed"/>
+        <line x1="103.75" y1="46.7" x2="90.23" y2="46.7" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <line x1="93.75" y1="37.26" x2="87.59" y2="37.26" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <g style="mix-blend-mode: multiply">
+          <path d="M107.24,56.14H81.88C64.1,56.14,64.1,75,46.32,75S28.54,56.14,10.76,56.14" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        </g>
+        <g>
+          <path d="M54.56,60.58A13.24,13.24,0,1,1,67.8,47.34" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <line x1="54.56" y1="47.34" x2="48.66" y2="41.44" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        </g>
+        <path d="M54.56,46.07a1.27,1.27,0,1,1-1.27,1.27,1.27,1.27,0,0,1,1.27-1.27m0-3a4.27,4.27,0,1,0,4.27,4.27,4.27,4.27,0,0,0-4.27-4.27Z" style="fill: #5333ed"/>
+      </g>
+    </g>
+  </g>
+</svg>

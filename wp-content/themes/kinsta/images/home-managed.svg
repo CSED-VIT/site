@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>home-managed</title>
+  <g style="isolation: isolate">
+    <g id="fa9b85b5-5856-4276-a8b8-4f902ec4e33c" data-name="figures and interactions">
+      <g>
+        <path d="M8.46,8.47a2,2,0,1,1-2,2,2,2,0,0,1,2-2m0-3a5,5,0,1,0,5,5,5,5,0,0,0-5-5Z" style="fill: #5333ed"/>
+        <line x1="26.65" y1="10.47" x2="16.94" y2="10.47" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <g style="mix-blend-mode: multiply">
+          <path d="M23.54,19.53a2,2,0,1,1-2,2,2,2,0,0,1,2-2m0-3a5,5,0,1,0,5,5,5,5,0,0,0-5-5Z" style="fill: #2cd4d9"/>
+        </g>
+        <line x1="5.35" y1="21.53" x2="15.06" y2="21.53" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="0e11870f-d224-4cce-bbdc-249091404761">
+      <rect x="12" y="1" width="16" height="29" style="fill: none"/>
+    </clipPath>
+    <clipPath id="4aba0998-1088-4c97-9531-7fc09be2e10b">
+      <rect x="14" y="3" width="13" height="26" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>pricing-secure</title>
+  <g style="isolation: isolate">
+    <g id="33a2635c-8f5d-4834-83b7-924613499e45" data-name="figures and interactions">
+      <path d="M16.09,4.5C12.75,7.05,7.5,7.67,7.5,7.67v9.81c0,4.33,4.33,9.52,8.59,9.52" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <g>
+        <g style="mix-blend-mode: multiply;isolation: isolate">
+          <g style="clip-path: url(#0e11870f-d224-4cce-bbdc-249091404761)">
+            <g style="clip-path: url(#4aba0998-1088-4c97-9531-7fc09be2e10b)">
+              <path d="M15.91,4.5c3.34,2.55,8.59,3.17,8.59,3.17v9.81c0,4.33-4.33,9.52-8.59,9.52" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+            </g>
+          </g>
+        </g>
+        <polyline points="12.38 15.24 14.98 17.62 19.2 13.4" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      </g>
+    </g>
+  </g>
+</svg>

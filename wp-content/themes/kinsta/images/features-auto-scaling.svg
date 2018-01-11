@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>features-auto-scaling</title>
+  <g style="isolation: isolate">
+    <g id="a92a0021-ca08-4acb-a64d-6b2b3e7aa22d" data-name="figures and interactions">
+      <g>
+        <polygon points="4.49 16.23 4.49 22.65 10.04 25.85 15.59 22.65 15.59 16.23 10.04 13.03 4.49 16.23" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <polygon points="4.49 9.35 4.49 22.65 16 29.29 27.51 22.65 27.51 9.35 16 2.71 4.49 9.35" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <polyline points="4.49 16.54 10.04 19.74 15.59 16.54" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      </g>
+    </g>
+  </g>
+</svg>

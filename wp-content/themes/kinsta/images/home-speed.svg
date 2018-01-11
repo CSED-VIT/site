@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>home-speed</title>
+  <g style="isolation: isolate">
+    <g id="0af57907-79a2-4953-9b74-4b2fe6bde727" data-name="figures and interactions">
+      <g>
+        <polyline points="18.75 9.51 25.25 16 18.75 22.49" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <polyline points="12.75 9.51 19.25 16 12.75 22.49" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <polyline points="6.75 9.51 13.25 16 6.75 22.49" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+      </g>
+    </g>
+  </g>
+</svg>

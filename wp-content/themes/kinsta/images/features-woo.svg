@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>features-woo</title>
+  <g style="isolation: isolate">
+    <g id="cd6e9cdd-f7d6-4cb3-abfd-a6542a25867a" data-name="figures and interactions">
+      <g>
+        <path d="M77.53,20.33H39.84a8.37,8.37,0,0,0-8.34,8.34v11.1a8.37,8.37,0,0,0,8.34,8.34h9.6L59.35,58V48.12H77.53a8.37,8.37,0,0,0,8.34-8.34V28.68A8.37,8.37,0,0,0,77.53,20.33Z" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <g style="mix-blend-mode: multiply">
+          <path d="M62.89,32.76a2.29,2.29,0,1,1-2.29,2.29,2.3,2.3,0,0,1,2.29-2.29m0-3a5.29,5.29,0,1,0,5.29,5.29,5.29,5.29,0,0,0-5.29-5.29Z" style="fill: #2cd4d9"/>
+        </g>
+        <g style="mix-blend-mode: multiply">
+          <path d="M75.44,32.76a2.29,2.29,0,1,1-2.29,2.29,2.3,2.3,0,0,1,2.29-2.29m0-3a5.29,5.29,0,1,0,5.29,5.29,5.29,5.29,0,0,0-5.29-5.29Z" style="fill: #2cd4d9"/>
+        </g>
+        <polyline points="38.39 32.54 42.59 38.95 46.79 32.54 50.99 38.95 55.2 32.54" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <polyline points="46.4 64.56 54.52 79.1 84.42 79.1 84.42 59.41 90.22 59.41" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <g style="mix-blend-mode: multiply">
+          <path d="M58.69,95.15a2.29,2.29,0,1,1-2.29,2.29,2.3,2.3,0,0,1,2.29-2.29m0-3A5.29,5.29,0,1,0,64,97.45a5.29,5.29,0,0,0-5.29-5.29Z" style="fill: #2cd4d9"/>
+        </g>
+        <g style="mix-blend-mode: multiply">
+          <path d="M77.45,95.15a2.29,2.29,0,1,1-2.29,2.29,2.3,2.3,0,0,1,2.29-2.29m0-3a5.29,5.29,0,1,0,5.29,5.29,5.29,5.29,0,0,0-5.29-5.29Z" style="fill: #2cd4d9"/>
+        </g>
+        <polyline points="51.14 86.83 84.53 86.83 84.53 76.94" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <line x1="84.42" y1="64.56" x2="46.4" y2="64.56" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>affiliate-promo</title>
+  <g style="isolation: isolate">
+    <g id="2681ca06-9441-4ecc-8d6c-f585354dae0d" data-name="figures and interactions">
+      <g>
+        <rect x="17.5" y="6.5" width="10" height="8" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <rect x="17.5" y="18.5" width="10" height="7" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <polygon points="4.5 6.5 4.5 15.23 13.23 6.5 4.5 6.5" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <rect x="4.5" y="6.5" width="9" height="19" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+      </g>
+    </g>
+  </g>
+</svg>

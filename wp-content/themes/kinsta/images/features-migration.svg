@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>features-migration</title>
+  <g style="isolation: isolate">
+    <g id="900fb9dc-2383-4444-9527-0166e2ed1555" data-name="figures and interactions">
+      <g>
+        <polygon points="77 86.29 58.13 73.41 77 60.53 95.86 73.41 77 86.29" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <polygon points="51.7 104.74 32.84 91.86 51.7 78.98 70.57 91.86 51.7 104.74" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <polygon points="51.7 67.79 32.84 54.91 51.7 42.03 70.57 54.91 51.7 67.79" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <polygon points="51 57.29 32.13 44.41 51 31.53 69.86 44.41 51 57.29" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <path d="M69.86,44.41c28.89,0,25.91,29,25.91,29" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <polygon points="51 49.02 32.13 36.14 51 23.26 69.86 36.14 51 49.02" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      </g>
+    </g>
+  </g>
+</svg>

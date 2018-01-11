@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>features-anything-else</title>
+  <g style="isolation: isolate">
+    <g id="54547e5a-a8df-464b-bf4d-871e93caa0fa" data-name="figures and interactions">
+      <g>
+        <g>
+          <path d="M40.73,19.53a15.33,15.33,0,0,1,2,1.7" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <path d="M19.53,40.73a15.22,15.22,0,0,1,21.2-21.2" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <path d="M19.53,40.73a15.29,15.29,0,0,0,1.7,2" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <path d="M21.23,42.77a15.32,15.32,0,0,0,2,1.7" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        </g>
+        <g style="mix-blend-mode: multiply">
+          <path d="M40.73,19.53a15.33,15.33,0,0,1,2,1.7" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <path d="M44.47,23.27a15.22,15.22,0,0,1-21.2,21.2" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <path d="M44.47,23.27a15.31,15.31,0,0,0-1.7-2" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <path d="M21.23,42.77a15.32,15.32,0,0,0,2,1.7" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        </g>
+      </g>
+      <path d="M30.45,33.24v-.88c0-2,2.91-2.75,2.91-4.21a1.5,1.5,0,0,0-1.68-1.4,3.4,3.4,0,0,0-2.26,1.09.35.35,0,0,1-.46,0l-1-1a.37.37,0,0,1,0-.54,5.42,5.42,0,0,1,4.11-1.85c2.2,0,4.07,1.47,4.07,3.52,0,2.54-3.19,3.27-3.19,4.53v.69a.4.4,0,0,1-.42.44h-1.7A.4.4,0,0,1,30.45,33.24Zm1.24,2.85a1.76,1.76,0,0,1,1.74,1.74,1.75,1.75,0,0,1-1.74,1.72A1.73,1.73,0,0,1,30,37.83,1.74,1.74,0,0,1,31.68,36.09Z" style="fill: #5333ed"/>
+    </g>
+  </g>
+</svg>

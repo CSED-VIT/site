@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>features-enterprise</title>
+  <g style="isolation: isolate">
+    <g id="83cbe78d-71d0-494e-8d79-54b3434057bc" data-name="figures and interactions">
+      <g>
+        <polyline points="51.97 65.86 81.47 65.86 81.47 31.8 22.46 31.8 22.46 65.86 51.97 65.86" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <line x1="22.46" y1="36.77" x2="81.47" y2="36.77" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <polyline points="84.04 56.17 62.54 56.17 62.54 80.99 84.04 80.99" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <polyline points="84.04 56.17 105.54 56.17 105.54 80.99 84.04 80.99" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <line x1="62.54" y1="60.83" x2="105.54" y2="60.83" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <polyline points="64 86.22 31.05 86.22 31.05 41.78 96.95 41.78 96.95 86.22 64 86.22" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <line x1="31.05" y1="49.31" x2="96.95" y2="49.31" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+      </g>
+    </g>
+  </g>
+</svg>

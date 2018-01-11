@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>features-nextgen</title>
+  <g style="isolation: isolate">
+    <g id="e712404a-22ac-4a15-9742-b28cc3b5fd58" data-name="figures and interactions">
+      <g>
+        <line x1="64" y1="43.18" x2="52.6" y2="50.96" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <line x1="41.67" y1="58.43" x2="33.78" y2="63.82" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <g>
+          <polygon points="64 84.45 33.78 63.82 64 43.18 94.22 63.82 64 84.45" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <polyline points="39.26 67.42 64.38 50.27 64.38 44.03" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <polygon points="80.02 87.65 76.07 84.95 80.02 82.25 83.98 84.95 80.02 87.65" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+          <polyline points="77.62 86.9 70 92.09 70 95.94" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <line x1="74.07" y1="50.9" x2="44.48" y2="71.1" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <line x1="83.78" y1="57.33" x2="54.2" y2="77.52" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <polyline points="59.96 81.69 83.54 65.13 83.54 58.89" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <polygon points="64 105.45 33.78 84.82 64 64.18 94.22 84.82 64 105.45" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+          <polygon points="52.9 92.22 48.95 89.52 52.9 86.82 56.86 89.52 52.9 92.22" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+          <line x1="43.84" y1="82.69" x2="50.59" y2="87.3" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        </g>
+        <polygon points="64 63.82 33.78 43.18 64 22.55 94.22 43.18 64 63.82" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      </g>
+    </g>
+  </g>
+</svg>

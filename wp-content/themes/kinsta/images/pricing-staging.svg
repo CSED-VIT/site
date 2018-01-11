@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>pricing-staging</title>
+  <g style="isolation: isolate">
+    <g id="69075c5a-a65f-40bf-9b79-1d5c151b5c5d" data-name="figures and interactions">
+      <g>
+        <polygon points="22.19 19.06 17 15.53 22.19 12 27.38 15.53 22.19 19.06" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <g style="mix-blend-mode: multiply;isolation: isolate">
+          <polygon points="12.69 25.71 7.5 22.18 12.69 18.65 17.88 22.18 12.69 25.71" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        </g>
+        <g style="mix-blend-mode: multiply;isolation: isolate">
+          <polygon points="12.19 12.06 7 8.53 12.19 5 17.38 8.53 12.19 12.06" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

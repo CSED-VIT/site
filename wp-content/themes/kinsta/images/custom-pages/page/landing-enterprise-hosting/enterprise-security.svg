@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>home-security</title>
+  <g style="isolation: isolate">
+    <g id="3edae824-77fc-4416-81bb-51731a9d45c8" data-name="figures and interactions">
+      <g>
+        <path d="M16,4.75C12.71,7.3,7.45,7.92,7.45,7.92v9.81c0,4.33,4.33,9.52,8.59,9.52" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <path d="M16,4.75c3.34,2.55,8.59,3.17,8.59,3.17v9.81c0,4.33-4.33,9.52-8.59,9.52" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <polyline points="12.64 15.49 15.24 17.88 19.45 13.66" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      </g>
+    </g>
+  </g>
+</svg>

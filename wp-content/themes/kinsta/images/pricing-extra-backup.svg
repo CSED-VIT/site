@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>pricing-extra-backup</title>
+  <g style="isolation: isolate">
+    <g id="f0f0852c-9bda-49e8-9875-5083fb607459" data-name="figures and interactions">
+      <g style="mix-blend-mode: multiply">
+        <path d="M62.41,63.33l-9.7.1a1.27,1.27,0,0,1-1.24-1.22l0-3.62a1.27,1.27,0,0,1,1.21-1.24l9.7-.1-.11-9.76a1.22,1.22,0,0,1,1.22-1.18l3.62,0a1.22,1.22,0,0,1,1.24,1.15l.11,9.76,9.76-.11a1.22,1.22,0,0,1,1.18,1.22l0,3.62a1.21,1.21,0,0,1-1.15,1.24l-9.76.11.1,9.63a1.22,1.22,0,0,1-1.22,1.18l-3.62,0A1.22,1.22,0,0,1,62.51,73Z" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      </g>
+      <path d="M102.06,64.41a14.48,14.48,0,0,0-16.85-22A27.53,27.53,0,0,0,33.9,54.7h-.08a14.57,14.57,0,0,0-.46,29.14v0H99a10,10,0,0,0,3.07-19.45Z" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+      <path d="M110.65,86.74a7.38,7.38,0,0,0-1.21.11,11.32,11.32,0,0,0-6.32-5.57A14.42,14.42,0,1,0,74.9,87.06a7.36,7.36,0,1,0-2.13,14.4h38.45v0a7.35,7.35,0,0,0-.56-14.69Z" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+      <path d="M31.13,35.2A20.3,20.3,0,0,0,13.71,65.92a5.57,5.57,0,1,0-3.53,9.88h21a20.3,20.3,0,0,0,0-40.59Z" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>features-fast-feedback</title>
+  <g style="isolation: isolate">
+    <g id="180017de-9520-4606-80e9-392f451d4800" data-name="figures and interactions">
+      <path d="M10.09,21.85l2,2.57,2.14-2.57h7.69A7.13,7.13,0,0,0,29,14.72h0a7.13,7.13,0,0,0-7.13-7.13H10.09A7.13,7.13,0,0,0,3,14.72H3A7.13,7.13,0,0,0,10.09,21.85Z" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+      <circle cx="10.06" cy="14.67" r="1.84" style="fill: #5333ed"/>
+      <circle cx="16.06" cy="14.67" r="1.84" style="fill: #5333ed"/>
+      <circle cx="22.06" cy="14.67" r="1.84" style="fill: #5333ed"/>
+    </g>
+  </g>
+</svg>

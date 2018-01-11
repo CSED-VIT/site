@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>home-backups</title>
+  <g style="isolation: isolate">
+    <g id="5230541c-71b2-41e1-ad34-c2eac7e5001a" data-name="figures and interactions">
+      <g>
+        <path d="M10,22A8.52,8.52,0,0,1,22,10" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <path d="M16,7.49a8.52,8.52,0,0,1,0,17" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <circle cx="16.01" cy="16.01" r="2.02" style="fill: #5332ed"/>
+        <polygon points="11.8 23.88 8.81 23.88 11.8 20.9 11.8 23.88" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2px"/>
+      </g>
+    </g>
+  </g>
+</svg>

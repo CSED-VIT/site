@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>features-hack-guarantee</title>
+  <g style="isolation: isolate">
+    <g id="1ff124a4-59a4-418a-bbca-d273b4d21fb5" data-name="figures and interactions">
+      <g>
+        <path d="M16,6.81c-4.26,0-8.59,4.19-8.59,8.52v4.81a39.5,39.5,0,0,0,4.59.17v4.88h8" style="fill: none;stroke: #5333ed;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px"/>
+        <path d="M16,6.81c4.26,0,8.59,4.19,8.59,8.52v4.81a39.5,39.5,0,0,1-4.59.17v4.88" style="fill: none;stroke: #2cd4d9;stroke-linecap: round;stroke-linejoin: round;stroke-width: 3px;mix-blend-mode: multiply"/>
+        <circle cx="13.2" cy="15.5" r="1.5" style="fill: #5333ed"/>
+        <circle cx="18.2" cy="15.5" r="1.5" style="fill: #5333ed"/>
+      </g>
+    </g>
+  </g>
+</svg>
