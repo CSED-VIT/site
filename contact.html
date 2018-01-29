@@ -94,7 +94,7 @@
                         <br>
                         <div class="panel" id="contact-panel">
                             <p class="semi-bold no-margin">Fill up this form to contact us if you have any futher questions</p>
-                            <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="_lib/mail.php" method="post">
+                            <form role="form" autocomplete="off" class="m-t-15" id="contact-form" action="http://contactcsed.herokuapp.com/api/getquery" method="post">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group form-group-default required">
@@ -105,7 +105,7 @@
                                     <div class="col-sm-6">
                                         <div class="form-group form-group-default">
                                             <label class="control-label">Phone</label>
-                                            <input type="text" name="last-name" class="form-control" required>
+                                            <input type="text" name="mobilenum" class="form-control" required>
                                         </div>
                                     </div>
                                 </div>
@@ -115,11 +115,11 @@
                                 </div>
                                 <div class="form-group form-group-default">
                                     <label class="control-label">Message</label>
-                                    <textarea name="message" placeholder="Type the message you wish to send" style="height:100px" class="form-control" required></textarea>
+                                    <textarea name="query" placeholder="Type the message you wish to send" style="height:100px" class="form-control" required></textarea>
                                 </div>
                                 <div class="sm-p-t-10 clearfix">
                                     <p class="pull-left small hint-text m-t-5 font-arial">I hereby certify that the information above is true and accurate. </p>
-                                    <button class="btn btn-primary font-montserrat all-caps fs-12 pull-right xs-pull-left">Submit</button>
+                                    <button class="btn btn-primary font-montserrat all-caps fs-12 pull-right xs-pull-left" type="submit" value="submit">Submit</button>
                                 </div>
                                 <div class="clearfix"></div>
                             </form>
